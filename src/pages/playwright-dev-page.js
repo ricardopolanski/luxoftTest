@@ -58,7 +58,7 @@ exports.PlaywrightDevPage = class PlaywrightDevPage {
   }
 
   async goto() {
-    await this.page.goto('https://www.aviasales.com/');
+    await this.page.goto('./');
   }
 
   async findHtmlLocator() {
@@ -78,7 +78,7 @@ exports.PlaywrightDevPage = class PlaywrightDevPage {
   };
 
   async checkDestination() {
-    await expect(this.page.locator('[data-test-id="destination-autocomplete-field"]')).toBeVisible();
+    await expect(this.page.locator(this.autoCompleteDestSelector)).toBeVisible();
     await expect(this.page.locator(this.autoCompleteDestSelector)).toHaveValue(flightData.destinationFullValue);
   };
 
