@@ -1,5 +1,3 @@
-//const {test,expect} = require('@playwright/test');
-
 class FlightData {    
         from = 'New York';
         destination = 'Berlin';
