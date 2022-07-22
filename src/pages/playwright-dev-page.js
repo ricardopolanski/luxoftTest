@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 const {Elements} = require('../pages/pageElements');
 const elements = new Elements;
-const {FlightData} = require('../pages/ticketData');
+const {FlightData} = require('../support/flightInfo');
 const flightData = new FlightData;
 
 exports.PlaywrightDevPage = class PlaywrightDevPage {
