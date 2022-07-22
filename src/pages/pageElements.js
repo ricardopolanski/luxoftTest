@@ -1,5 +1,3 @@
-//const {test,expect} = require('@playwright/test');
-
 class Elements {
     constructor() {
         this.btn = '[data-test-id="switch"]';
