@@ -10,7 +10,7 @@ test.describe('test', async () => {
     page = await browser.newPage();
   });
   
-    test('Check DarKMode', async () => {
+    test('Test Main Page', async () => {
     const playwrightDev = new PlaywrightDevPage(page);
     await playwrightDev.goto();
     await playwrightDev.btnDarkTheme();
@@ -46,7 +46,7 @@ test.describe('test', async () => {
     //await expect(page.locator('[data-test-id="autocomplete-origin"]', { waitUntil: 'networkidle' })).toBeVisible();
     });
 
-  test('Check NewTab', async () => {
+  test('Check NewTab Info', async () => {
     newTab = true;
     const playwrightDev = new PlaywrightDevPage(page);
     await playwrightDev.checkOrigin(newTab);
