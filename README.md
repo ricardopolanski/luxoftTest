@@ -1,3 +1,5 @@
+[![Playwright Tests](https://github.com/ricardopolanski/luxoftTest/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/ricardopolanski/luxoftTest/actions/workflows/playwright.yml)
+
 The project was developed using [Playwrigth](https://playwright.dev/ "Playwrigth") Framework and [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript "JavaScript").
 
 This project follows the Page Object Model (POM) described on [Page Object Models](https://playwright.dev/docs/pom/ "Page Object Models").
